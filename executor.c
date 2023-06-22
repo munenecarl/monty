@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 
 /**
  * executor - executes the opcode in the monty file
