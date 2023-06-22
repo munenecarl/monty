@@ -16,7 +16,7 @@ int executor(stack_t **stack, unsigned int line_number, char *line_content)
 		{"pop", _pop},
 		{"swap", _swap},
 		{"add", _add},
-		{"nop", _nop}
+		{"nop", nop},
 		{NULL, NULL}
 	};
 	int i = 0;
