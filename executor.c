@@ -36,6 +36,6 @@ int executor(stack_t **stack, unsigned int line_number, char *line_content)
 		}
 		i++;
 	}
-	printf("L%d: unknown instruction %s\n", line_number, opcode);
+	fprintf(stderr, "L%d: unknown instruction %s\n", line_number, opcode);
 	exit(EXIT_FAILURE);
 }
